@@ -22,6 +22,7 @@ html {
   --bg-footer-soc: rgba(255, 255, 255, 0.1);
   --bg-cover-color: rgba(33, 150, 243, 0.9);
   --backdrop-color: rgba(0, 0, 0, 0.2);
+  --activity-bg-color: rgba(47, 48, 58, 0.8);
 
   --transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -322,7 +323,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  background: rgba(47, 48, 58, 0.8);
+  background-color: var(--activity-bg-color);
 }
 
 /* Staff */
